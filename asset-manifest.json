@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Exclusive-Website/static/css/main.70ebe96e.css",
+    "main.js": "/Exclusive-Website/static/js/main.d927f921.js",
+    "static/media/Frame 600.png": "/Exclusive-Website/static/media/Frame 600.ca1a9d65301bd3276854.png",
+    "static/media/Side Image (1).png": "/Exclusive-Website/static/media/Side Image (1).e8981fd0d28ba2d369b7.png",
+    "static/media/Side Image.png": "/Exclusive-Website/static/media/Side Image.e8981fd0d28ba2d369b7.png",
+    "static/media/Frame 876.png": "/Exclusive-Website/static/media/Frame 876.c6ab25d5d7f31e62b2e6.png",
+    "static/media/Frame 684.png": "/Exclusive-Website/static/media/Frame 684.6116f2e8c110b7b64eb1.png",
+    "static/media/Frame 874.png": "/Exclusive-Website/static/media/Frame 874.b3ad883ff19a79c9d843.png",
+    "static/media/Frame 875.png": "/Exclusive-Website/static/media/Frame 875.59da3e8cb6619adcefed.png",
+    "static/media/Frame 560 (2).png": "/Exclusive-Website/static/media/Frame 560 (2).e4f2ab14116de9b29586.png",
+    "static/media/Frame 685 (2).png": "/Exclusive-Website/static/media/Frame 685 (2).2aaa3418d44ef5a8c3b7.png",
+    "static/media/Frame 686.png": "/Exclusive-Website/static/media/Frame 686.6216b5f068f11fcc9b1a.png",
+    "static/media/Frame 687.png": "/Exclusive-Website/static/media/Frame 687.3a65d7c65750d9b522db.png",
+    "static/media/g27cq4-500x500 1.png": "/Exclusive-Website/static/media/g27cq4-500x500 1.0d4e469ab666de523267.png",
+    "static/media/Exclusive.svg": "/Exclusive-Website/static/media/Exclusive.8ca29947db1c675723912c991d9dde71.svg",
+    "static/media/slick.svg": "/Exclusive-Website/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Exclusive-Website/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Exclusive-Website/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Exclusive-Website/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/icon-instagram.svg": "/Exclusive-Website/static/media/icon-instagram.90c479f9a968e30c19a1bb50d2a28a6e.svg",
+    "static/media/Icon-Google.svg": "/Exclusive-Website/static/media/Icon-Google.419dacf0f23c21e94c6655d88f025e54.svg",
+    "index.html": "/Exclusive-Website/index.html",
+    "static/media/icons-phone.svg": "/Exclusive-Website/static/media/icons-phone.9636a6a75475b4801f7ec73191010f8b.svg",
+    "static/media/Icon-Linkedin.svg": "/Exclusive-Website/static/media/Icon-Linkedin.88e6f6497fb7bd1a9149e5c0a0c06805.svg",
+    "static/media/icon-cancel.svg": "/Exclusive-Website/static/media/icon-cancel.b83201f360da3574e3f1170e2bb7691a.svg",
+    "static/media/icons-mail.svg": "/Exclusive-Website/static/media/icons-mail.2ab454d206e44daf95b08167ec5f3d49.svg",
+    "static/media/Drop-Down-Small.svg": "/Exclusive-Website/static/media/Drop-Down-Small.4441c639f64f61f6ef3d3f01b754df06.svg",
+    "static/media/Drop-Up-Small.svg": "/Exclusive-Website/static/media/Drop-Up-Small.6dde798598c347fae03371b376d3827b.svg",
+    "main.70ebe96e.css.map": "/Exclusive-Website/static/css/main.70ebe96e.css.map",
+    "main.d927f921.js.map": "/Exclusive-Website/static/js/main.d927f921.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70ebe96e.css",
+    "static/js/main.d927f921.js"
+  ]
+}
