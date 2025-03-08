@@ -6,6 +6,11 @@ import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 import imgProduct from "../images/g92-2-500x500 1 (1).png";
+import imgBay1 from "../images/Bkash.svg";
+import imgBay2 from "../images/Visa.svg";
+import imgBay3 from "../images/Mastercard.svg";
+import imgBay4 from "../images/Nagad.svg";
+import Footer from "./Footer";
 
 function Checkout(){
     const [clickIcon,setClickIcon] = useState(false);
@@ -16,6 +21,18 @@ function Checkout(){
     const [City,setCity] = useState("");
     const [phone,setPhone] = useState("");
     const [Email,setEmail] = useState("");
+
+    const submitInformation = () => {
+        sessionStorage.setItem("firstName", firstName);
+        sessionStorage.setItem("companyName", companyName);
+        sessionStorage.setItem("address", address);
+        sessionStorage.setItem("Apartament", Apartament);
+        sessionStorage.setItem("City", City);
+        sessionStorage.setItem("phone", phone);
+        sessionStorage.setItem("Email", Email)
+    }
+
+    const [apperCheck,setApperCheck] = useState(false);
 
     return(
         <div className="Checkout-Departament">
@@ -41,7 +58,7 @@ function Checkout(){
                             </div>
                             <input onChange={(e) => {
                                 setFirstName(e.target.value);
-                            }} type="text"/>
+                            }} type="text" required/>
                         </div>
                         <div className="col-input">
                             <div>
@@ -112,9 +129,62 @@ function Checkout(){
                             </div>
                             <p>$650</p>
                         </div>
+                        <div className="content-product">
+                            <div>
+                                <img src={imgProduct} alt="img-product"/>
+                                <h3>LCD Monitor</h3>
+                            </div>
+                            <p>$650</p>
+                        </div>
+                        <div className="all-Col-Total">
+                            <div className="col-Subtotal">
+                                <h3>Subtotal:</h3>
+                                <p>$1750</p>
+                            </div>
+                            <div className="col-Shipping">
+                                <h3>Shipping:</h3>
+                                <p>Free</p>
+                            </div>
+                            <div className="col-Total">
+                                <h3>Total:</h3>
+                                <p>$1750</p>
+                            </div>
+                        </div>
+                        <div className="Payment-Col">
+                            <div className="bank-col">
+                                <div className="col-bank">
+                                    <div className="col-check" onClick={() => {
+                                        setApperCheck(!apperCheck)
+                                    }}>
+                                        <li className={`${apperCheck ? "appear" : ""}`}></li>
+                                    </div>
+                                    <p>Bank</p>
+                                </div>
+                                <div className="col-delivery">
+                                    <div className="col-check" onClick={() => {
+                                        setApperCheck(!apperCheck)
+                                    }}>
+                                        <li className={`${apperCheck ? "none" : ""}`}></li>
+                                    </div>
+                                    <p>Cash on delivery</p>
+                                </div>
+                            </div>
+                            <div className="all-Images">
+                                <img src={imgBay1} alt="Bay1"/>
+                                <img src={imgBay2} alt="Bay2"/>
+                                <img src={imgBay3} alt="Bay3"/>
+                                <img src={imgBay4} alt="Bay4"/>
+                            </div>
+                        </div>
+                        <div className="col-Buttons">
+                            <button>Coupon Code</button>
+                            <button>Apply Coupon</button>
+                        </div>
+                        <button className="Place-Order" onClick={submitInformation}>Place Order</button>
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }

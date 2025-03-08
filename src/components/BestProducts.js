@@ -51,9 +51,9 @@ function BestProducts() {
     const [Products, setProducts] = useState([]);
 
     const getALLProducts = async () => {
-        await fetch(`/data.json`)
+        await fetch(`http://localhost:3000/Products`)
             .then((response) => response.json())
-            .then(data => setProducts(data.Products))
+            .then(data => setProducts(data))
     }
 
     useEffect(() => {
