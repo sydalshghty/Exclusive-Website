@@ -57,9 +57,9 @@ function FlashSales() {
   const [products, setProducts] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:3000/FlashSales")
+        fetch("flashSales.json")
             .then((response) => response.json())
-            .then((data) => setProducts(data))
+            .then((data) => setProducts(data.FlashSales))
     }, []);
 
     console.log(products);
